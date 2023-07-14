@@ -1,0 +1,8 @@
+Made a lot of adjustments from the starter
+-FrontEnd In order to remove the profile button on header
+    -Navigation index.js a lot of grey out 
+    -ProfileButton a lot of grey out 
+-BackEnd
+    -User.py made username nullable b/c we arent going to use those
+    -signup_form.py took out validators
+    Leaving to_dict as is for now unless need to take username out 

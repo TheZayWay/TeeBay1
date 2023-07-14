@@ -1,0 +1,9 @@
+<form method="post" action="">
+    {{ form.csrf_token }}
+    <p>{{form.name.label}}: {{form.name}}</p>
+    <p>{{form.type.label}} {{form.type}}</p>
+    <p>{{form.description.label}}: {{form.description}}</p>
+    <p>{{form.image_url.label}}: {{form.image_url}}</p>
+    <p>{{form.brand.label}} {{form.brand}}</p>
+    <p>{{form.create_listing}}</p>
+</form>
